@@ -6,7 +6,7 @@ public class Type_Conversion {
 
         // Explicit conversion
         long l2 = 100L;
-        int i2 = (int) l2; // Casting required
+        int i2 = (int) l2; // Casting required because of size.
 
         System.out.println("Implicit conversion : " + l);
         System.out.println("Explicit conversion : " + i2);
